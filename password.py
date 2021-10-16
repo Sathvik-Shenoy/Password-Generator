@@ -20,7 +20,6 @@ while(i==0):
             if(n1==2):
                 f1=open("file.txt","w")
                 c1=input("Enter the new password:-")
-                f1.truncate()
                 f1.write(c1)
     else:
         f1 = open("file.txt", "w")
